@@ -1,0 +1,3 @@
+## Identify `.ir` & `.txt`files as plain text:
+.txt linguist-language=Text
+.ir linguist-language=Text
