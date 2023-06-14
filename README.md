@@ -1,6 +1,6 @@
 # Flipper Zero Files
 
-This is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here. Everything I've collected so far is in the `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like READMEs.)
+This is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here. Everything I've collected so far is in the `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like READMEs & jpegs.)
 
 I have also included some of my own files from devices I scanned with my own FZ & their associated information in the `MyFiles` Folder.
 
@@ -18,13 +18,19 @@ I have also included some of my own files from devices I scanned with my own FZ 
  - [Flipper Zero Dev Tutorial](https://github.com/m1ch3al/flipper-zero-dev-tutorial/tree/main)
  - [Sub GHz Jamming](https://github.com/SHUR1K-N/Flipper-Zero-Sub-GHz-Jamming-Files)
  - [Bypass Sentry Safe](https://github.com/H4ckd4ddy/bypass-sentry-safe)
+ - [FAP-list](https://github.com/playmean/fap-list)
+ - [O.MG Payloads](https://github.com/hak5/omg-payloads)
 
 ## Flipper DevBoard Sources:
 
- - [Black Magic Probe](https://github.com/blackmagic-debug/blackmagic) Debugger Repo
- - [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) Repo
- - [Marauder Wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) For FZ WiFi Dev Board
- - [Flipper Zero WiFi Marauder](https://github.com/0xchocolate/flipperzero-wifi-marauder) Companion App
+ - [Black Magic Probe](https://github.com/blackmagic-debug/blackmagic) Debugger Repo.
+ - [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) Repo.
+ - [Marauder Wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) For FZ WiFi Dev Board.
+ - [Flipper Zero WiFi Marauder](https://github.com/0xchocolate/flipperzero-wifi-marauder) Companion App.
+
+## Other Flipper Resources:
+ 
+ - [Flipper Zero .fap Factory](https://flipc.org/build) : A cloud-based one-click tool to build Flipper Zero .fap applications from git repositories.
 
 ## Flipper Zero SD Card File Structure:
 
