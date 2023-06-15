@@ -1,6 +1,6 @@
 # Flipper Zero Files
 
-This is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here. Everything I've collected so far is in the `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like READMEs & jpegs.)
+This is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here. Everything I've collected so far is in the `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like `README.md`, `*.jpg` and `*.txt` files.)
 
 I have also included some of my own files from devices I scanned with my own FZ & their associated information in the `MyFiles` Folder.
 
@@ -13,13 +13,12 @@ I have also included some of my own files from devices I scanned with my own FZ 
  - [Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware)
  - [Flipper](https://github.com/UberGuidoZ/Flipper)
  - [Flipper IRDB](https://github.com/UberGuidoZ/Flipper-IRDB)
- - [Flipper Zero BadUSB](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB)
  - [IR Scope App](https://github.com/kallanreed/unleashed-firmware/releases/tag/v1.0.0.0)
- - [Flipper Zero Dev Tutorial](https://github.com/m1ch3al/flipper-zero-dev-tutorial/tree/main)
  - [Sub GHz Jamming](https://github.com/SHUR1K-N/Flipper-Zero-Sub-GHz-Jamming-Files)
  - [Bypass Sentry Safe](https://github.com/H4ckd4ddy/bypass-sentry-safe)
  - [FAP-list](https://github.com/playmean/fap-list)
  - [O.MG Payloads](https://github.com/hak5/omg-payloads)
+ - [Flipper Zero BadUSB](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB)
 
 ## Flipper DevBoard Sources:
 
@@ -30,11 +29,12 @@ I have also included some of my own files from devices I scanned with my own FZ 
 
 ## Other Flipper Resources:
  
+ - [Flipper Zero Dev Tutorial](https://github.com/m1ch3al/flipper-zero-dev-tutorial/tree/main) : How To develop apps for the Flipper Zero.
  - [Flipper Zero .fap Factory](https://flipc.org/build) : A cloud-based one-click tool to build Flipper Zero .fap applications from git repositories.
 
 ## Flipper Zero SD Card File Structure:
 
-- Source: [FlipperDevices Readme](https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/README.md)
+ - Source: [FlipperDevices Readme](https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/README.md)
  - Modifications are mine.
 
 ```
