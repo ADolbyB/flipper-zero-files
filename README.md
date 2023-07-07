@@ -2,8 +2,6 @@
 
 ## Update: 07/07/2023
 
-I have added an additional folder `orig-with-readmes` to the repo that contains all the original files I collected from various other GitHub repos so that proper context and credit be given to those sources.
-
 The `cleaned-CFW` folder is just the renamed `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like `README.md`, `*.jpg` and `*.txt` files.), and is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here.
 
 I have also included some of my own files from devices I scanned with my own FZ & their associated information in the `zero-my-files` Folder.
@@ -43,18 +41,19 @@ I have also included some of my own files from devices I scanned with my own FZ 
 
 ```
 FLIPPER SD (Unleashed FW)
-├── apps
+├── apps                            ## Put all your `.fap` files here
 │   ├── Games                       # Compilation of old `Games` and `Games_Extra` folders.
-│   ├── GPIO                        # Compilation of old `GPIO` and `GPIO_Extra` folders.
+│   ├── GPIO
 │   ├── Media                       # Compilation of old `Media` and `Media_Extra` folders.
+│   ├── Main                        # Main Stock Flipper Apps
 │   ├── Misc                        # Compilation of old `Misc` and `Misc_Extra` folders.
-│   ├── NFC                         # Compilation of old `NFC` and `NFC_Extra` folders.
+│   ├── NFC                         
 │   ├── Settings
 │   ├── Sub-GHz
-│   └── Tools                       # Windows sample script
+│   └── Tools                       # Compilation of old `Tools` and `Tools_Extra` folders.
 ├── apps_data
 ├── authenticator
-├── badusb                          # Put Rubber Ducky scripts here
+├── badusb                          ## Put Rubber Ducky scripts here
 │   └── demo_windows.txt            # Windows sample script
 ├── dolphin
 │   ├── L1_Furippa1_128x64
@@ -62,6 +61,9 @@ FLIPPER SD (Unleashed FW)
 │   │   └── meta.txt                # Set of rules for playing frames
 │   └── manifest.txt                # Describes animation selection parameters
 ├── ibtnfuzzer
+│   ├── example_uids_cyfral.txt
+│   ├── example_uids_dallas.txt
+│   └── example_uids_metakom.txt
 ├── ibutton (1-Wire)
 │   ├── Cyfral.ibtn                 # Cyfral key
 │   ├── Dallas.ibtn                 # Dallas key
@@ -69,13 +71,13 @@ FLIPPER SD (Unleashed FW)
 ├── infrared (IR)
 │   ├── TV_bedroom.ir               # Samsung remote
 │   ├── Apple_tv.ir                 # Apple tv remote
-│   └── assets                      # Signal libraries
+│   └── assets                      # Signal library folders
 │       └── tv.ir
 ├── lfrfid (RFID)
 │   ├── Em_marine.rfid              # EM4100 sample key 
 │   ├── Hid_prox.rfid               # H10301 sample key EM4100
 │   └── Indala.rfid                 # I40134 sample key
-├── music_player                    # List of tunes to play
+├── music_player                    ## List of tunes to play
 │   ├── Chasing.fmf                 # Sample tune
 │   └── Marble_Machine.fmf          # Sample tune
 ├── nfc
@@ -111,7 +113,16 @@ FLIPPER SD (Unleashed FW)
 │   ├── cnt.u2f # Key counter
 │   └── key.u2f # Device key
 ├── unirf
-├── update
+├── update                          ## Example Update Folders
+│   ├── f7-update-unlshd-053e       # Example of Unleashed FW folder
+│   ├── f7-update-0.80.1            # Example Of Stable Release Folder
+│   │   ├── backup.tar              # Flipper configuration snapshot
+│   │   ├── resources.tar 
+│   │   ├── firmware.dfu
+│   │   ├── radio.bin
+│   │   ├── splash.bin
+│   │   ├── updater.bin
+│   │   └── update.fuf     
 │   └── f7-update-dev-29042022-0eac917f
 │       ├── backup.tar                                      # Flipper configuration snapshot
 │       ├── flipper-z-f7-full-dev-29042022-0eac917f.dfu     # Target firmware 
@@ -120,6 +131,7 @@ FLIPPER SD (Unleashed FW)
 │       ├── stm32wb5x_BLE_Stack_light_fw.bin                # Radio core firmware
 │       └── update.fuf                                      # Update package manifest
 ├── wav_player
+│   └── example.wav                 # WAV files to play
 │
 ├── Manifest                        # Resource files list
 ├── rwfiletest.bin                  # Created after running SD benchmark
