@@ -1,8 +1,12 @@
-# Flipper Zero Files
+# Flipper Zero Files 2.0
 
-This is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here. Everything I've collected so far is in the `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like `README.md`, `*.jpg` and `*.txt` files.)
+## Update: 07/07/2023
 
-I have also included some of my own files from devices I scanned with my own FZ & their associated information in the `MyFiles` Folder.
+I have added an additional folder `orig-with-readmes` to the repo that contains all the original files I collected from various other GitHub repos so that proper context and credit be given to those sources.
+
+The `cleaned-CFW` folder is just the renamed `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like `README.md`, `*.jpg` and `*.txt` files.), and is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here.
+
+I have also included some of my own files from devices I scanned with my own FZ & their associated information in the `zero-my-files` Folder.
 
 ## Flipper Repo Sources: 
 
@@ -32,7 +36,7 @@ I have also included some of my own files from devices I scanned with my own FZ 
  - [Flipper Zero Dev Tutorial](https://github.com/m1ch3al/flipper-zero-dev-tutorial/tree/main) : How To develop apps for the Flipper Zero.
  - [Flipper Zero .fap Factory](https://flipc.org/build) : A cloud-based one-click tool to build Flipper Zero .fap applications from git repositories.
 
-## Flipper Zero SD Card File Structure:
+## My FZ SD Card File Structure:
 
  - Source: [FlipperDevices Readme](https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/README.md)
  - Modifications are mine.
@@ -40,10 +44,17 @@ I have also included some of my own files from devices I scanned with my own FZ 
 ```
 FLIPPER SD (Unleashed FW)
 ├── apps
+│   ├── Games                       # Compilation of old `Games` and `Games_Extra` folders.
+│   ├── GPIO                        # Compilation of old `GPIO` and `GPIO_Extra` folders.
+│   ├── Media                       # Compilation of old `Media` and `Media_Extra` folders.
+│   ├── Misc                        # Compilation of old `Misc` and `Misc_Extra` folders.
+│   ├── NFC                         # Compilation of old `NFC` and `NFC_Extra` folders.
+│   ├── Settings
+│   ├── Sub-GHz
+│   └── Tools                       # Windows sample script
 ├── apps_data
 ├── authenticator
 ├── badusb                          # Put Rubber Ducky scripts here
-│   ├── demo_macos.txt              # MacOS sample script
 │   └── demo_windows.txt            # Windows sample script
 ├── dolphin
 │   ├── L1_Furippa1_128x64
@@ -121,4 +132,4 @@ FLIPPER SD (Unleashed FW)
 
 ### DISCLAIMER:
 
-ONLY use this repo at your own risk on your own devices, and do not violate the law with any of these apps. You should only transmit on frequencies that you are authorized to do so. In the US, refer to the FCC for radio spectrum info if you are unsure of that information. This repo is FOR EDUCATIONAL USE ONLY. If you get in trouble doing something stupid, especially jamming or causing interference, then YOU are the only one to blame. I have not been able to test everything in this repo, so USE AT YOUR OWN RISK.
+ONLY use this repo at your own risk on your own devices, and do not violate the law with any of these apps. You should only transmit on frequencies that you are authorized to do so. In the US, refer to the FCC for radio spectrum info if you are unsure of that information. This repo is FOR EDUCATIONAL USE ONLY. If you get in trouble doing something stupid, especially jamming or causing interference, then YOU are the only one to blame. I have not been able to test everything in this repo yet, since this is a work in progress, so USE AT YOUR OWN RISK.
