@@ -1,8 +1,8 @@
 Filetype: Flipper SubGhz Last Setting File
 Version: 1
-Frequency: 318000000
+Frequency: 304250000
 FeedbackLevel: 1
-FATrigger: -83.000000
+FATrigger: -82.000000
 External: false
 ExtPower: true
 TimestampNames: false
