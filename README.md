@@ -1,8 +1,8 @@
 # Flipper Zero Files 2.0
 
-## Update: 07/07/2023
+## Updates:
 
-The `cleaned-CFW` folder is just the renamed `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like `README.md`, `*.jpg` and `*.txt` files.), and is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here.
+The `cleaned-CFW` folder is just the renamed `CFW-FW-Archive` Folder. This folder has been cleaned to get rid of non-flipper device files (like `README.md`, `*.jpg` and `*.wav` files > 2.0Mb.), and is a collection of files I cleaned up and organized for use with the Flipper Zero device. I am running CFW Release FW. Files that I did not create myself were gathered from sources I have linked to here.
 
 I have also included some of my own files from devices I scanned with my own FZ & their associated information in the `zero-my-files` Folder.
 
