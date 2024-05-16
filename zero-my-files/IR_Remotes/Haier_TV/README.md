@@ -2,7 +2,7 @@
 
 The part number on the Haier Remote is: 
 
-### $$ \text{HTR-A18M} $$
+### $$ HTR-A18M $$
 
 There are 2 `.ir` files for my Haier TV:
 
