@@ -1,0 +1,11 @@
+App(
+    appid="game_of_life",
+    name="Game of Life",
+    apptype=FlipperAppType.PLUGIN,
+    entry_point="game_of_life_app",
+    cdefines=["APP_GAME_OF_LIFE"],
+    requires=["gui"],
+    stack_size=1 * 1024,
+    icon="A_Plugins_14",
+    order=35,
+)

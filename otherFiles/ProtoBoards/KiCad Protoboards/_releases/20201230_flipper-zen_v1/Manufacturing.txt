@@ -1,0 +1,10 @@
+Board name:	flipper-zen
+
+Thikness:		1.0 mm
+Mask:			top, bottom: BLACK
+Silk:			top: ORANGE (or WHITE)
+
+Material:		FR4
+PCB type:		2-side.
+Copper:			35 um
+Finishing coat:	HASL (solder)

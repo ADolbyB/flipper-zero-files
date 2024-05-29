@@ -1,0 +1,68 @@
+<!--- This software is licensed under the MIT License: https://github.com/spacehuhntech/esp8266_deauther -->
+
+<!Doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.8, minimal-ui">
+	<meta name="theme-color" content="#36393E">
+
+	<meta name="description" content="ESP8266 Deauther">
+	<title>ESP8266 Deauther</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/site.js"></script>
+	<script src="js/settings.js"></script>
+</head>
+
+<body onload="loadLang()">
+	<nav>
+		<ul class="menu">
+			<li><a href="scan.html" data-translate="scan">Scan</a></li>
+			<li><a href="ssids.html" data-translate="ssids">SSIDs</a></li>
+			<li><a href="attack.html" data-translate="attacks">Attack</a></li>
+			<li><a href="settings.html" data-translate="settings">Settings</a></li>
+		</ul>
+	</nav>
+
+	<div id="status"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="header" data-translate="settings">Settings</h1>
+
+				<button
+					onclick="getFile('run?cmd=stopap');alert('Turning off access point now. Restart your Deauther to be able to connect again.')"
+					class="red" data-translate="wifi_off">WiFi off</button>
+				<button onclick="getFile('run?cmd=reset;;save settings')" class="red"
+					data-translate="reset">Reset</button>
+				<button onclick="getFile('run?cmd=reboot')" class="red right" data-translate="reboot">reboot</button>
+
+				<p>
+					<span class="red" data-translate="info_span">INFO:</span><br>
+					<span data-translate="settings_info">
+						- Some settings require a reboot.<br>
+						- Click save to make sure that your changes are applied.<br>
+					</span>
+					<span data-translate="info_disclaimer">In case of an unexpected error, please reload the site and
+						look at the serial monitor for further debugging.</span><br>
+				</p>
+
+				<button onclick="save()" data-translate="save">save</button>
+				<button onclick="load()" class="right" data-translate="reload">reload</button>
+			</div>
+		</div>
+
+		<div id="settingsList"></div>
+	</div>
+	<footer>
+		<span id="version">Version 2.6.1</span>
+		<br>
+		<br>
+		<a href="http://deauther.maltronics.com" target="_blank">Wiki</a> | <a href="info.html">Credits</a>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# lomalkin_kicad_symbols_FlipperZero
+#
+DEF lomalkin_kicad_symbols_FlipperZero U 0 40 Y Y 1 F N
+F0 "U" 0 -1000 50 H V C CNN
+F1 "lomalkin_kicad_symbols_FlipperZero" 0 1100 50 H V C CNN
+F2 "" -50 100 50 H I C CNN
+F3 "" -50 100 50 H I C CNN
+$FPLIST
+ FlipperZero
+$ENDFPLIST
+DRAW
+S 300 1050 -350 -950 0 1 0 f
+X 5V 1 400 950 100 L 50 50 1 1 I
+X SWCLK 10 400 -50 100 L 50 50 1 1 I
+X GND 11 400 -150 100 L 50 50 1 1 I
+X SWDIO 12 400 -250 100 L 50 50 1 1 I
+X UART_TX 13 400 -350 100 L 50 50 1 1 I
+X UART_RX 14 400 -450 100 L 50 50 1 1 I
+X PC1 15 400 -550 100 L 50 50 1 1 I
+X PC0 16 400 -650 100 L 50 50 1 1 I
+X PB14_(1W) 17 400 -750 100 L 50 50 1 1 I
+X GND 18 400 -850 100 L 50 50 1 1 I
+X PA7 2 400 850 100 L 50 50 1 1 I
+X PA6 3 400 750 100 L 50 50 1 1 I
+X PA4 4 400 650 100 L 50 50 1 1 I
+X PB3 5 400 550 100 L 50 50 1 1 I
+X PB2 6 400 450 100 L 50 50 1 1 I
+X PC3 7 400 350 100 L 50 50 1 1 I
+X GND 8 400 250 100 L 50 50 1 1 I
+X 3.3V 9 400 50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# lomalkin_kicad_symbols_SolderPad
+#
+DEF ~lomalkin_kicad_symbols_SolderPad X 0 40 Y Y 1 F N
+F0 "X" 200 0 50 H V C CNN
+F1 "lomalkin_kicad_symbols_SolderPad" 50 -50 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderPad
+$ENDFPLIST
+DRAW
+C 125 0 25 0 1 0 N
+X ~ 1 0 0 100 R 0 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
