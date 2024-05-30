@@ -53,7 +53,7 @@ Files not included in this repo are:
 
 These items are irrelevent to my work and are easily found elsewhere.
 
-Files in this repo that I did not create myself (Nearly all of the `Build` folder) are also linked to below.
+Files in this repo that I did not create myself are also linked to below.
 
 Firmware I use:
 - DarkFlippers' [`Unleashed Firmware`](https://github.com/DarkFlippers/unleashed-firmware).
