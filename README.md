@@ -17,7 +17,7 @@ If none of this makes sense to you, then you probably should not own or be using
 
 <p> Flipper Zero GPIO Pinout </p>
 
-<img src="./otherFiles/GPIO/Flipper_Zero_GPIO_Pinout_v2.jpg" alt="FlipperGPIO" width="800"/>
+<img src="./otherFiles/GPIO/Flipper_Zero_GPIO_Pinout_v2.jpg" alt="FlipperGPIO" width="800"/><br>
 
 <small>
     <a href="https://cdn.flipperzero.one/Flipper_Zero_GPIO_Pinout_v2.jpg">Image Source</a><br>
@@ -26,7 +26,7 @@ If none of this makes sense to you, then you probably should not own or be using
 <br>
 <p> Make Use of your Flipper's GPIO when Needed! [Not my Image] </p>
 
-<img src="./otherFiles/GPIO/Flipper-Zero-Hacking-Gadget-01-1200x900.jpg" alt="FlipperGPIO" width="600"/>
+<img src="./otherFiles/GPIO/Flipper-Zero-Hacking-Gadget-01-1200x900.jpg" alt="FlipperGPIO" width="600"/><br>
 
 <small>
     <a href="https://thegadgetflow.com/wp-content/uploads/2021/01/Flipper-Zero-Hacking-Gadget-01-1200x900.jpg" alt="FlipperGPIO">Image Source</a><br><br>
