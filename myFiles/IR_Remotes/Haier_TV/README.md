@@ -6,8 +6,8 @@ $$ \text{HTR-A18M} $$
 
 There are 2 `.ir` files for my Haier TV:
 
-- The `Htr_a18m_1.ir` file has only the major functions of the remote.
-- The `Htr_a18m_2.ir` file is a complete remote copy with all functions as listed on the remote.
+- The `Haier_HTR-A18M_trim.ir` file has only the major functions of the remote.
+- The `Haier_HTR-A18M.ir` file is a complete remote copy with all functions as listed on the remote.
 
 ## Pictures:
 
