@@ -76,6 +76,7 @@ Apps and Scripts:
 - SHUR1K-N's [`Sub GHz Jamming`](https://github.com/SHUR1K-N/Flipper-Zero-Sub-GHz-Jamming-Files).
 - hak5's [`O.MG Payloads`](https://github.com/hak5/omg-payloads).
 - I-Am-Jakoby's [`Flipper Zero BadUSB`](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB).
+- MuddledBox's [FlipperZeroSub-GHz](https://github.com/MuddledBox/FlipperZeroSub-GHz) `README.md` file for deBruijn usage information.
 
 ## Flipper Zero DevBoard Sources:
 
@@ -93,7 +94,7 @@ Apps and Scripts:
 
 ## Other Flipper Resources:
 
-- CyberSecurityUP's [`Awesome Flipper Zero 2`](https://github.com/CyberSecurityUP/awesome-flipperzero2) : A collection of useful resources.
+- CyberSecurityUP's [`Awesome Flipper Zero 2`](https://github.com/CyberSecurityUP/awesome-flipperzero2) : A collection of useful Flipper Zero resources.
 - [TI CC1101 Data Sheet](https://www.ti.com/product/CC1101) : Used for the FZ SubGHz Transceiver module.
     - Note the frequency limitations of the CC1101 according to the datasheet:
         - 300 - 348 MHz | 387 - 464 MHz | 779 - 928 MHz.
@@ -101,7 +102,11 @@ Apps and Scripts:
         - (G)FSK | 2(G)FSK | 4(G)FSK | ASK | OOK.
 - [ST STM32WB55RG Overview and Data Sheet](https://www.st.com/en/microcontrollers-microprocessors/stm32wb55rg.html) for the STM32 32-bit ARM Cortex-M4 64MHz MCU used for the Flipper Zero.
 - [ST ST25R3916 Overview and Data Sheet](https://www.st.com/en/nfc/st25r3916.html) for the High performance NFC universal device and EMVCo reader used for the Flipper Zero.
-- [Flipper Zero Dev Tutorial](https://github.com/m1ch3al/flipper-zero-dev-tutorial/tree/main) : How To develop apps for the Flipper Zero (GitHub & Linux based).
+
+## Flipper App Development:
+
+- jamisonderek's [Flipper Zero Tutorials](https://github.com/jamisonderek/flipper-zero-tutorials) repository.
+- m1ch3al's [Flipper Zero Dev Tutorial](https://github.com/m1ch3al/flipper-zero-dev-tutorial/tree/main) : How To develop apps for the Flipper Zero (GitHub & Linux based).
 - [Flipper Maker](https://flippermaker.github.io/) : Generate `.sub` Flipper files for Apps.
 
 ## Under Development:
