@@ -4,7 +4,9 @@ Update: 5/2024:
 
 This is a carefully curated collection of various Flipper Zero resources combined into a single repository for my own research and learning as a Computer Engineer and now AI Graduate Student.
 
-First I installed all the relevent apps in the new official Flipper Lab [Flipper App Store](https://lab.flipper.net/apps) app store, then all the other files from the `cfwFiles` for all the extra "goodies".
+First, I install the DarkFlippers' `Unleashed` firmware.
+Next, all relevent apps in the new official Flipper Labs [Flipper App Store](https://lab.flipper.net/apps) are installed.
+Finally, all the aditional files here from the `cfwFiles` are then added for all the extra "goodies".
 
 If you have a Flipper Zero device, I suggest the following:
 - Rule #1: Don't do anything stupid on any devices that are not YOUR OWN.
@@ -83,10 +85,12 @@ Apps and Scripts:
 - FZ Docs: [How to Update Firmware](https://docs.flipper.net/development/hardware/wifi-developer-board/update) on the FZ Official DevBoard (OFW).
 - UberGuidoZ's [`Wifi_DevBoard`](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard#marauder-install-information) Repo full of useful information for the DevBoard.
 - justcallmekoko's [Flipper Zero WiFi Dev Board SD Expansion](https://www.justcallmekokollc.com/product/flipper-zero-wifi-dev-board-sd-expansion/7)
-- justcallmekoko's [Flipper Zero WiFi Dev Board SD-GPS Expansion](https://www.justcallmekokollc.com/product/flipper-zero-dev-board-sd-gps/3)
-    - Associated Repos:
+- justcallmekoko's [Flipper Zero WiFi Dev Board SD-GPS Expansion](https://www.justcallmekokollc.com/product/flipper-zero-dev-board-sd-gps/3). Associated Repos:
     - [`ESP32 Marauder`](https://github.com/justcallmekoko/ESP32Marauder) Repo.
     - [`Marauder Wiki`](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) for FZ WiFi Dev Board.
+    - Marauder Wiki [`Evil Portal`](https://github.com/justcallmekoko/ESP32Marauder/wiki/evilportal) use fir WiFi sniffing. The Evil Portal was a standalone app, but is now integrated with the Marauder Software.
+    - Marauder Wiki [`Select EP HTML File`](https://github.com/justcallmekoko/ESP32Marauder/wiki/select-ep-html-file) which allows selection of custom portal HTML page for phishing attacks.
+
 - blackmagic-debug's [`Black Magic Probe`](https://github.com/blackmagic-debug/blackmagic) Debugger Repo.
 - 0xchocolate's [`Flipper Zero WiFi Marauder`](https://github.com/0xchocolate/flipperzero-wifi-marauder) companion App.
 - [Mini Module NRF24L01](https://www.tindie.com/products/flipper-hub/nrf24-module-for-the-flipper-zero-plug-and-play/): A Plug 'n Play NRF24 Module for sniffing WiFi and other 2.4GHz 
@@ -114,7 +118,7 @@ Apps and Scripts:
 ## Under Development:
 
 - [Flipper Zero .fap Factory](https://flipc.org/build) : A cloud-based one-click tool to build Flipper Zero .fap applications from git repositories. (used to work, currently says "under construction")
-- bigbrodude6119's [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal): not currently working with latest firmware.
+- bigbrodude6119's [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal): not currently working with latest firmware (Update: has been integrated into Marauder CFW.)
     - Also note kleo's [Evil Portals](https://github.com/kleo/evilportals) pages for phishing attacks.
 
 
