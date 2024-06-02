@@ -80,20 +80,22 @@ Apps and Scripts:
 
 ## Flipper Zero DevBoard Sources:
 
-- [Mini Module NRF24L01](https://www.tindie.com/products/flipper-hub/nrf24-module-for-the-flipper-zero-plug-and-play/): A Plug 'n Play NRF24 Module for FZ.
-    - [nRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf) Single Chip 2.4GHz Transceiver Data Sheet.
-    - Some [other documentation](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/documentation/NRF24.md) on the NRF24 Module.
+- FZ Docs: [How to Update Firmware](https://docs.flipper.net/development/hardware/wifi-developer-board/update) on the FZ Official DevBoard (OFW).
+- UberGuidoZ's [`Wifi_DevBoard`](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard#marauder-install-information) Repo full of useful information for the DevBoard.
 - justcallmekoko's [Flipper Zero WiFi Dev Board SD Expansion](https://www.justcallmekokollc.com/product/flipper-zero-wifi-dev-board-sd-expansion/7)
 - justcallmekoko's [Flipper Zero WiFi Dev Board SD-GPS Expansion](https://www.justcallmekokollc.com/product/flipper-zero-dev-board-sd-gps/3)
     - Associated Repos:
     - [`ESP32 Marauder`](https://github.com/justcallmekoko/ESP32Marauder) Repo.
-    - [`Marauder Wiki`](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) : For FZ WiFi Dev Board.
+    - [`Marauder Wiki`](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) for FZ WiFi Dev Board.
 - blackmagic-debug's [`Black Magic Probe`](https://github.com/blackmagic-debug/blackmagic) Debugger Repo.
-- 0xchocolate's [`Flipper Zero WiFi Marauder`](https://github.com/0xchocolate/flipperzero-wifi-marauder) Companion App.
-- UberGuidoZ's [`Wifi_DevBoard`](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard#marauder-install-information) : A Repo full of useful information for the DevBoard.
+- 0xchocolate's [`Flipper Zero WiFi Marauder`](https://github.com/0xchocolate/flipperzero-wifi-marauder) companion App.
+- [Mini Module NRF24L01](https://www.tindie.com/products/flipper-hub/nrf24-module-for-the-flipper-zero-plug-and-play/): A Plug 'n Play NRF24 Module for sniffing WiFi and other 2.4GHz 
+    - [nRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf) Single Chip 2.4GHz Transceiver Data Sheet.
+    - Some [other documentation](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/documentation/NRF24.md) on the NRF24 Module.
 
 ## Other Flipper Resources:
 
+- Derek Jamison's YouTube Playlist for [`Flipper Zero Sub-GHz`](https://www.youtube.com/playlist?list=PLM1cyTMe-PYKeMm52J8Y_4SKqdm6Utl__) describes some more advanced Sub-GHz signal capturing and playback.
 - CyberSecurityUP's [`Awesome Flipper Zero 2`](https://github.com/CyberSecurityUP/awesome-flipperzero2) : A collection of useful Flipper Zero resources.
 - [TI CC1101 Data Sheet](https://www.ti.com/product/CC1101) : Used for the FZ SubGHz Transceiver module.
     - Note the frequency limitations of the CC1101 according to the datasheet:
@@ -110,7 +112,12 @@ Apps and Scripts:
 - [Flipper Maker](https://flippermaker.github.io/) : Generate `.sub` Flipper files for Apps.
 
 ## Under Development:
+
 - [Flipper Zero .fap Factory](https://flipc.org/build) : A cloud-based one-click tool to build Flipper Zero .fap applications from git repositories. (used to work, currently says "under construction")
+- bigbrodude6119's [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal): not currently working with latest firmware.
+    - Also note kleo's [Evil Portals](https://github.com/kleo/evilportals) pages for phishing attacks.
+
+
 
 ## My FZ SD Card File Structure:
 
