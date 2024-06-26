@@ -1,17 +1,16 @@
-# Flipper Zero Files 3.0
-
-Update: 5/2024:
+# Flipper Zero Files 0.3.1
 
 This is a carefully curated collection of various Flipper Zero resources combined into a single repository for my own research and learning as a Computer Engineer and now AI Graduate Student.
 
 First, I install the DarkFlippers' `Unleashed` firmware.
 Next, all relevent apps in the new official Flipper Labs [Flipper App Store](https://lab.flipper.net/apps) are installed.
-Finally, all the aditional files here from the `cfwFiles` are then added for all the extra "goodies".
+Finally, all the additional files here from the `cfwFiles` are then added for all the extra "goodies".
 
 If you have a Flipper Zero device, I suggest the following:
-- Rule #1: Don't do anything stupid on any devices that are not YOUR OWN.
-- Rule #2: Know your appropriate governing agency's laws/regulations on Wireless Spectrum alocation. Here in the US, we have the FCC part 15 which deals with 'unlicensed' spectrum. 
-    - I am also a radio Amateur, so I am afforded FCC Part 97 as well. YMMV.
+- Rule #1: Don't do anything stupid or illegal on any devices that are not YOUR OWN.
+- Rule #2: Know your appropriate governing agency's laws/regulations on Wireless Spectrum alocation. Here in the US, we have the FCC part 15 which deals with 'unlicensed' spectrum in various bands, included in which are:
+    - 315MHz | 433 MHz | 915 MHz
+- I am also a radio Amateur, so I am afforded FCC Part 97 as well. YMMV.
 
 If none of this makes sense to you, then you probably should not own or be using a Flipper Zero device.
 
@@ -25,21 +24,12 @@ If none of this makes sense to you, then you probably should not own or be using
     <a href="https://cdn.flipperzero.one/Flipper_Zero_GPIO_Pinout_v2.jpg">Image Source</a><br>
 </small>
 
-<br>
-<p> Make Use of your Flipper's GPIO when Needed! [Not my Image] </p>
-
-<img src="./otherFiles/GPIO/Flipper-Zero-Hacking-Gadget-01-1200x900.jpg" alt="FlipperGPIO" width="600"/><br>
-
-<small>
-    <a href="https://thegadgetflow.com/wp-content/uploads/2021/01/Flipper-Zero-Hacking-Gadget-01-1200x900.jpg" alt="FlipperGPIO">Image Source</a><br><br>
-</small>
-
 </div>
 
 This repo is divided into different folders:
 
-- `cfwFiles` contains a collection of files from each of the sources listed below, but are cleaned up and organized for use with my personal Flipper Zero device. This folder has been trimmed to get rid of non-flipper device files (See Below) for minimum SD space requirements. `README.md` files have been preserved for credit along with any other file that describes functionality or ownership/contributorship.
-    - The files in this folder are meant to be drop-in add-ons for my existing [Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware/releases), so it contains all the applications and other related files for all the latest functionality.
+- `cfwFiles` contains a collection of files from each of the sources listed below, but are cleaned up and organized for use with my personal Flipper Zero device. This folder has been trimmed to get rid of non-flipper device files (see below) for minimum SD space requirements. `README.md` files have been preserved for credit along with any other file that describes functionality or ownership/contributorship.
+    - The files in this folder are meant to be drop-in add-ons for the existing [Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware/releases), so it contains all the applications and other related files for all the latest functionality.
 
 - `myFiles` contains my personal remote codes from devices that are no longer working. This is for my 
 personal research. Please use responsibly. These files are also already added to the `cfwFiles` folder.
@@ -60,10 +50,11 @@ Files in this repo that I did not create myself are also linked to below.
 Firmware I use:
 - DarkFlippers' [`Unleashed Firmware`](https://github.com/DarkFlippers/unleashed-firmware).
 
-## Official Flipper Zero Resources:
+## Flipper Zero Firmware Resources:
 - New official Flipper Lab [Flipper App Store](https://lab.flipper.net/apps).
 - [ESP32 WiFi Marauder](https://lab.flipper.net/apps/esp32_wifi_marauder) Companion App.
     - Note that install instructions are also here: [`UberGuidoZ's Marauder Install Information`](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard#marauder-install-information).
+    - Note that the `evilPortal` server app has been integrated with 0xchocolate's [`Flipper Zero WiFi Marauder Companion App`](https://github.com/0xchocolate/flipperzero-wifi-marauder).
 
 ## Flipper Zero Device Repo File Sources:
 
@@ -92,13 +83,15 @@ Apps and Scripts:
     - Marauder Wiki [`Select EP HTML File`](https://github.com/justcallmekoko/ESP32Marauder/wiki/select-ep-html-file) which allows selection of custom portal HTML page for phishing attacks.
 
 - blackmagic-debug's [`Black Magic Probe`](https://github.com/blackmagic-debug/blackmagic) Debugger Repo.
-- 0xchocolate's [`Flipper Zero WiFi Marauder`](https://github.com/0xchocolate/flipperzero-wifi-marauder) companion App.
 - [Mini Module NRF24L01](https://www.tindie.com/products/flipper-hub/nrf24-module-for-the-flipper-zero-plug-and-play/): A Plug 'n Play NRF24 Module for sniffing WiFi and other 2.4GHz 
     - [nRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf) Single Chip 2.4GHz Transceiver Data Sheet.
     - Some [other documentation](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/documentation/NRF24.md) on the NRF24 Module.
 
 ## Other Flipper Resources:
 
+- [FZEEFlasher](https://fzeeflasher.com/): An online web based GUI for flashing Flipper Zero and Dev Boards.
+    - [FZEEFlasher](https://github.com/FZEEFlasher/fzeeflasher.github.io/wiki) GitHub Wiki Page.
+- [Momentum FW](https://momentum-fw.dev/) web installer for the new `Momentum Firmware`.
 - Derek Jamison's YouTube Playlist for [`Flipper Zero Sub-GHz`](https://www.youtube.com/playlist?list=PLM1cyTMe-PYKeMm52J8Y_4SKqdm6Utl__) describes some more advanced Sub-GHz signal capturing and playback.
 - CyberSecurityUP's [`Awesome Flipper Zero 2`](https://github.com/CyberSecurityUP/awesome-flipperzero2) : A collection of useful Flipper Zero resources.
 - [TI CC1101 Data Sheet](https://www.ti.com/product/CC1101) : Used for the FZ SubGHz Transceiver module.
@@ -108,6 +101,7 @@ Apps and Scripts:
         - (G)FSK | 2(G)FSK | 4(G)FSK | ASK | OOK.
 - [ST STM32WB55RG Overview and Data Sheet](https://www.st.com/en/microcontrollers-microprocessors/stm32wb55rg.html) for the STM32 32-bit ARM Cortex-M4 64MHz MCU used for the Flipper Zero.
 - [ST ST25R3916 Overview and Data Sheet](https://www.st.com/en/nfc/st25r3916.html) for the High performance NFC universal device and EMVCo reader used for the Flipper Zero.
+- [HCS301 Data Sheet](https://html.alldatasheet.com/html-pdf/74925/MICROCHIP/HCS301/405/1/HCS301.html) for SubGHz KeeLoQ&#174; Code Hopping Encoder for Remote Keyless Entry (RKE) Systems.
 
 ## Flipper App Development:
 
@@ -118,10 +112,8 @@ Apps and Scripts:
 ## Under Development:
 
 - [Flipper Zero .fap Factory](https://flipc.org/build) : A cloud-based one-click tool to build Flipper Zero .fap applications from git repositories. (used to work, currently says "under construction")
-- bigbrodude6119's [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal): not currently working with latest firmware (Update: has been integrated into Marauder CFW.)
+- bigbrodude6119's [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal): not currently working with latest firmware (Update: has been integrated into Marauder CFW with the Marauder Companion App.)
     - Also note kleo's [Evil Portals](https://github.com/kleo/evilportals) pages for phishing attacks.
-
-
 
 ## My FZ SD Card File Structure:
 
